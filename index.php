@@ -70,15 +70,15 @@ function city_selected($city, $selected_city){
 
                 <div class="row">
                     <div class="col-9">
-                        <h3>Tempo para a cidade <strong><?= $location['name'] ?></strong></h3>
-                        <p class="my-2">Região: <?= $location['region'] ?> | <?= $location['country'] ?> | <?= $location['current_time'] ?> | Previsão para <strong><?= $days ?></strong> dias</p>
+                        <h3>Weather for the city of  <strong><?= $location['name'] ?></strong></h3>
+                        <p class="my-2">Region: <?= $location['region'] ?> | <?= $location['country'] ?> | <?= $location['current_time'] ?> | Forecast for <strong><?= $days ?></strong> days</p>
                     </div>
                     <div class="col-3 text-end">
                         <select class="form-select">
-                            <option value="Lisbon"  <?= city_selected($city, 'Lisbon') ?>>Lisboa</option>
+                            <option value="Lisbon"  <?= city_selected($city, 'Lisbon') ?>>Lisbon</option>
                             <option value="Madrid"  <?= city_selected($city, 'Madrid') ?>>Madrid</option>
                             <option value="Paris"   <?= city_selected($city, 'Paris') ?>>Paris</option>
-                            <option value="London"  <?= city_selected($city, 'London') ?>>Londres</option>
+                            <option value="London"  <?= city_selected($city, 'London') ?>>London</option>
                             <option value="Berlin"  <?= city_selected($city, 'Berlin') ?>>Berlin</option>
                             <option value="Maputo"  <?= city_selected($city, 'Maputo') ?>>Maputo</option>
                             <option value="Brasilia"<?= city_selected($city, 'Brasilia') ?>>Brasilia</option>
