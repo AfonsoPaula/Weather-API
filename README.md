@@ -3,10 +3,9 @@
 ## Description
 
 This repository contains a weather application developed in PHP that uses an API to provide accurate weather informations. The application offers an intuitive interface for users to obtain updated weather data for any city.
+![Captura de ecrã 2023-11-18 205721](https://github.com/AfonsoPaula/Weather-API/assets/67978137/daaa369e-2a50-4553-ae1e-c961caa5f44b)
 
 ## Key Features
-
-![Captura de ecrã 2023-11-18 205721](https://github.com/AfonsoPaula/Weather-API/assets/67978137/daaa369e-2a50-4553-ae1e-c961caa5f44b)
 
 - **API Integration**
   - The application connects to [Weather API](https://www.weatherapi.com/) to retrieve real-time data.
